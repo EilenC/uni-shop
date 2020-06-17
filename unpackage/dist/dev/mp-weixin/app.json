@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/member/member",
+    "pages/news/news",
+    "pages/car/car"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "SHOP",
+    "navigationBarBackgroundColor": "#b50e03",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#b50e03",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon/shouye.png",
+        "selectedIconPath": "static/icon/shouye_1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "iconPath": "static/icon/faxian.png",
+        "selectedIconPath": "static/icon/faxian_1.png",
+        "text": "热点"
+      },
+      {
+        "pagePath": "pages/car/car",
+        "iconPath": "static/icon/cart-Empty.png",
+        "selectedIconPath": "static/icon/cart-Empty-fill.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/member/member",
+        "iconPath": "static/icon/bussiness-man.png",
+        "selectedIconPath": "static/icon/bussiness-man-fill.png",
+        "text": "个人"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap13.json"
+}
