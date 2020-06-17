@@ -79,6 +79,12 @@
 			view{
 				width: 120rpx;
 				height: 120rpx;
+				background-color: #b50e03;
+				border-radius: 60rpx;
+				margin: 10px auto;
+				line-height: 120rpx;
+				color: #FFFFFF;
+				font-size: 50rpx;
 			}
 			text{
 				font-size: 30rpx;
